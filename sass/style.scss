@@ -1,0 +1,33 @@
+@import "compass/css3";
+$w: 100vw;
+
+*{
+	padding: 0px;
+	margin: 0px;
+
+	@include box-sizing(border-box);
+	list-style: none;
+}
+
+.gallery{
+	width: 100vw;
+	border: 3px solid red;
+
+	.pic{
+		float: left;
+		border: 10px solid blue;
+		background-color: #aaaaaa;
+		width: 10%;
+		height: 10vw;
+
+		&:nth-child(24n+4), &:nth-child(24n+8){
+			width: 20%;
+			height: 20vw;
+		}
+
+		&:nth-child(24n+9),&:nth-child(24n+11),&:nth-child(24n+13),&:nth-child(24n+17),&:nth-child(24n+19),&:nth-child(24n+21){
+			margin-top:-10vw;
+		}
+	}
+
+}

@@ -1,0 +1,32 @@
+/* line 4, ../sass/style.scss */
+* {
+  padding: 0px;
+  margin: 0px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+/* line 12, ../sass/style.scss */
+.gallery {
+  width: 100vw;
+  border: 3px solid red;
+}
+/* line 16, ../sass/style.scss */
+.gallery .pic {
+  float: left;
+  border: 10px solid blue;
+  background-color: #aaaaaa;
+  width: 10%;
+  height: 10vw;
+}
+/* line 23, ../sass/style.scss */
+.gallery .pic:nth-child(24n+4), .gallery .pic:nth-child(24n+8) {
+  width: 20%;
+  height: 20vw;
+}
+/* line 28, ../sass/style.scss */
+.gallery .pic:nth-child(24n+9), .gallery .pic:nth-child(24n+11), .gallery .pic:nth-child(24n+13), .gallery .pic:nth-child(24n+17), .gallery .pic:nth-child(24n+19), .gallery .pic:nth-child(24n+21) {
+  margin-top: -10vw;
+}
