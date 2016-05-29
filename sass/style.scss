@@ -1,54 +1,67 @@
 @import "compass/css3";
+
 $w: 100vw;
 
-*{
-	padding: 0px;
-	margin: 0px;
+* {
+    padding: 0px;
+    margin: 0px;
 
-	@include box-sizing(border-box);
-	list-style: none;
+    @include box-sizing(border-box);
+
+    list-style: none;
 }
 
-.gallery{
-	width: 100vw;
+.gallery {
+    width: 100vw;
 
-	.pic{
-		float: left;
-		border: 0.3vw solid white;
-		width: 10%;
-		height: 10vw;
+    .pic {
+        float: left;
+        border: 0.2vw solid snow;
+        width: 10%;
+        height: 10vw;
 
+        &:nth-child(24n+4), &:nth-child(24n+8) {
+            width: 20%;
+            height: 20vw;
 
-		&:nth-child(24n+4), &:nth-child(24n+8){
-			width: 20%;
-			height: 20vw;
-		}
+            div {
+                &:hover {
+                    border-top: 10vw solid transparent;
+                    border-bottom: 10vw solid rgba(0, 0, 0, 0.6);
+                }
+            }
+        }
 
-		&:nth-child(24n+9),&:nth-child(24n+11),&:nth-child(24n+13),&:nth-child(24n+17),&:nth-child(24n+19),&:nth-child(24n+21){
-			margin-top:-10vw;
-		}
-		
-		div{
-			height: 100%;
-			border: 0.8vw solid rgba(0,0,0,0.6);
-			@include transition(border 0.3s);
+        &:nth-child(24n+9), &:nth-child(24n+11), &:nth-child(24n+13), &:nth-child(24n+17), &:nth-child(24n+19), &:nth-child(24n+21) {
+            margin-top: -10vw;
+        }
 
-			text-align: center;
+        div {
+            height: 100%;
+            border-bottom: 0.5vw solid rgba(0, 0, 0, 0.6);
+            border-top: 0vw solid transparent;
 
-			&:hover{
-				border: 0px solid transparent;
-			}
-		}
+            @include transition(border 0.3s);
 
-		@for $i from 1 through 49 {
-			&:nth-child(49n+#{$i}) {
-				div{
-					background-image: url("../img/rwby ("+$i+").jpg");
-					background-position: center;
-				}
-			}
-		}
+            color: white;
 
-	}
+            border-radius: 2%;
 
+            text-align: center;
+
+            &:hover {
+                border-top: 5vw solid transparent;
+                border-bottom: 5vw solid rgba(0, 0, 0, 0.6);
+            }
+        }
+
+        @for $i from 1 through 49 {
+            &:nth-child(49n+#{$i}) {
+                div {
+                    background-image: url("../img/rwby (" + $i + ").jpg");
+                    background-position: center;
+                }
+            }
+        }
+    }
 }
