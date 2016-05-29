@@ -11,22 +11,279 @@
 /* line 12, ../sass/style.scss */
 .gallery {
   width: 100vw;
-  border: 3px solid red;
 }
-/* line 16, ../sass/style.scss */
+/* line 15, ../sass/style.scss */
 .gallery .pic {
   float: left;
-  border: 10px solid blue;
-  background-color: #aaaaaa;
+  border: 0.3vw solid white;
   width: 10%;
   height: 10vw;
 }
-/* line 23, ../sass/style.scss */
+/* line 22, ../sass/style.scss */
 .gallery .pic:nth-child(24n+4), .gallery .pic:nth-child(24n+8) {
   width: 20%;
   height: 20vw;
 }
-/* line 28, ../sass/style.scss */
+/* line 27, ../sass/style.scss */
 .gallery .pic:nth-child(24n+9), .gallery .pic:nth-child(24n+11), .gallery .pic:nth-child(24n+13), .gallery .pic:nth-child(24n+17), .gallery .pic:nth-child(24n+19), .gallery .pic:nth-child(24n+21) {
   margin-top: -10vw;
+}
+/* line 31, ../sass/style.scss */
+.gallery .pic div {
+  height: 100%;
+  border: 0.8vw solid rgba(0, 0, 0, 0.6);
+  -moz-transition: border 0.3s;
+  -o-transition: border 0.3s;
+  -webkit-transition: border 0.3s;
+  transition: border 0.3s;
+  text-align: center;
+}
+/* line 38, ../sass/style.scss */
+.gallery .pic div:hover {
+  border: 0px solid transparent;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+1) div {
+  background-image: url("../img/rwby (1).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+2) div {
+  background-image: url("../img/rwby (2).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+3) div {
+  background-image: url("../img/rwby (3).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+4) div {
+  background-image: url("../img/rwby (4).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+5) div {
+  background-image: url("../img/rwby (5).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+6) div {
+  background-image: url("../img/rwby (6).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+7) div {
+  background-image: url("../img/rwby (7).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+8) div {
+  background-image: url("../img/rwby (8).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+9) div {
+  background-image: url("../img/rwby (9).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+10) div {
+  background-image: url("../img/rwby (10).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+11) div {
+  background-image: url("../img/rwby (11).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+12) div {
+  background-image: url("../img/rwby (12).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+13) div {
+  background-image: url("../img/rwby (13).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+14) div {
+  background-image: url("../img/rwby (14).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+15) div {
+  background-image: url("../img/rwby (15).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+16) div {
+  background-image: url("../img/rwby (16).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+17) div {
+  background-image: url("../img/rwby (17).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+18) div {
+  background-image: url("../img/rwby (18).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+19) div {
+  background-image: url("../img/rwby (19).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+20) div {
+  background-image: url("../img/rwby (20).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+21) div {
+  background-image: url("../img/rwby (21).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+22) div {
+  background-image: url("../img/rwby (22).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+23) div {
+  background-image: url("../img/rwby (23).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+24) div {
+  background-image: url("../img/rwby (24).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+25) div {
+  background-image: url("../img/rwby (25).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+26) div {
+  background-image: url("../img/rwby (26).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+27) div {
+  background-image: url("../img/rwby (27).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+28) div {
+  background-image: url("../img/rwby (28).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+29) div {
+  background-image: url("../img/rwby (29).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+30) div {
+  background-image: url("../img/rwby (30).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+31) div {
+  background-image: url("../img/rwby (31).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+32) div {
+  background-image: url("../img/rwby (32).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+33) div {
+  background-image: url("../img/rwby (33).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+34) div {
+  background-image: url("../img/rwby (34).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+35) div {
+  background-image: url("../img/rwby (35).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+36) div {
+  background-image: url("../img/rwby (36).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+37) div {
+  background-image: url("../img/rwby (37).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+38) div {
+  background-image: url("../img/rwby (38).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+39) div {
+  background-image: url("../img/rwby (39).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+40) div {
+  background-image: url("../img/rwby (40).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+41) div {
+  background-image: url("../img/rwby (41).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+42) div {
+  background-image: url("../img/rwby (42).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+43) div {
+  background-image: url("../img/rwby (43).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+44) div {
+  background-image: url("../img/rwby (44).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+45) div {
+  background-image: url("../img/rwby (45).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+46) div {
+  background-image: url("../img/rwby (46).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+47) div {
+  background-image: url("../img/rwby (47).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+48) div {
+  background-image: url("../img/rwby (48).jpg");
+  background-position: center;
+}
+/* line 45, ../sass/style.scss */
+.gallery .pic:nth-child(49n+49) div {
+  background-image: url("../img/rwby (49).jpg");
+  background-position: center;
 }

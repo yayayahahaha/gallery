@@ -11,14 +11,13 @@ $w: 100vw;
 
 .gallery{
 	width: 100vw;
-	border: 3px solid red;
 
 	.pic{
 		float: left;
-		border: 10px solid blue;
-		background-color: #aaaaaa;
+		border: 0.3vw solid white;
 		width: 10%;
 		height: 10vw;
+
 
 		&:nth-child(24n+4), &:nth-child(24n+8){
 			width: 20%;
@@ -28,6 +27,28 @@ $w: 100vw;
 		&:nth-child(24n+9),&:nth-child(24n+11),&:nth-child(24n+13),&:nth-child(24n+17),&:nth-child(24n+19),&:nth-child(24n+21){
 			margin-top:-10vw;
 		}
+		
+		div{
+			height: 100%;
+			border: 0.8vw solid rgba(0,0,0,0.6);
+			@include transition(border 0.3s);
+
+			text-align: center;
+
+			&:hover{
+				border: 0px solid transparent;
+			}
+		}
+
+		@for $i from 1 through 49 {
+			&:nth-child(49n+#{$i}) {
+				div{
+					background-image: url("../img/rwby ("+$i+").jpg");
+					background-position: center;
+				}
+			}
+		}
+
 	}
 
 }
